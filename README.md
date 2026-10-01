@@ -1,7 +1,7 @@
 This repo contains a literal Arabic translation of the Gospel of Thomas from the Sahidic Coptic of the Nag Hammadi manuscript, which, as far as I know, has not been done before. Existing Arabic translations were made from European languages:
 
-- Translation by إسكندر شديد in الأناجيل المنحولة. The source language isn't stated, but the context suggests French and English. (Link: https://archive.org/details/20221113_20221113_1619/%D8%A7%D9%84%D8%A3%D9%86%D8%A7%D8%AC%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AD%D9%88%D9%84%D8%A9)
-- An anonymous translation from English, published at https://www.drghaly.com/articles/display/12225.
+- Translation by إسكندر شديد in [الأناجيل المنحولة](https://archive.org/details/20221113_20221113_1619/%D8%A7%D9%84%D8%A3%D9%86%D8%A7%D8%AC%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AD%D9%88%D9%84%D8%A9). The source language isn't stated, but the context suggests French and English.
+- An anonymous [translation from English](https://www.drghaly.com/articles/display/12225).
 
 Translated by سامح هابيل
 
@@ -11,8 +11,8 @@ Translated by سامح هابيل
 
 الترجمات التي وجدتها:
 
-- ترجمة إسكندر شديد في "الأناجيل المنحولة". لا تذكر الترجمة لغة المصدر، ولكن يبدو من السياق أنها الفرنسية والإنكليزية. (رابط: https://archive.org/details/20221113_20221113_1619/%D8%A7%D9%84%D8%A3%D9%86%D8%A7%D8%AC%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AD%D9%88%D9%84%D8%A9)
-- ترجمة لمترجم مجهول عن الإنكليزية: https://www.drghaly.com/articles/display/12225
+- ترجمة إسكندر شديد في [الأناجيل المنحولة](https://archive.org/details/20221113_20221113_1619/%D8%A7%D9%84%D8%A3%D9%86%D8%A7%D8%AC%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AD%D9%88%D9%84%D8%A9). لا تذكر الترجمة لغة المصدر، ولكن يبدو من السياق أنها الفرنسية والإنكليزية.
+- [ترجمة لمترجم مجهول عن الإنكليزية](https://www.drghaly.com/articles/display/12225).
 
 ترجمة: سامح هابيل
 
