@@ -18,4 +18,8 @@ Translated by سامح هابيل
 
 ---
 
-License: CC BY-SA 4.0
+Coptic text: [Coptic SCRIPTORIUM](https://data.copticscriptorium.org/urn:cts:copticLit:nh.thomas.NHAM02:0-114), Gospel of Thomas, Nag Hammadi Codex II,2 (corpus thomas.gospel 6.2.0), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+النص القبطي: [Coptic SCRIPTORIUM](https://data.copticscriptorium.org/urn:cts:copticLit:nh.thomas.NHAM02:0-114)، إنجيل توما، مخطوطة نجع حمادي II,2، مرخص بموجب [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
