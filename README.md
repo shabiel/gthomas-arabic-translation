@@ -3,7 +3,7 @@ This repo contains a literal Arabic translation of the Gospel of Thomas from the
 - Translation by إسكندر شديد in [الأناجيل المنحولة](https://archive.org/details/20221113_20221113_1619/%D8%A7%D9%84%D8%A3%D9%86%D8%A7%D8%AC%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AD%D9%88%D9%84%D8%A9). The source language isn't stated, but the context suggests French and English.
 - An anonymous [translation from English](https://www.drghaly.com/articles/display/12225).
 
-Translated by سامح هابيل
+Translated by Sam Habiel
 
 ---
 
@@ -22,4 +22,4 @@ Coptic text: [Coptic SCRIPTORIUM](https://data.copticscriptorium.org/urn:cts:cop
 
 النص القبطي: [Coptic SCRIPTORIUM](https://data.copticscriptorium.org/urn:cts:copticLit:nh.thomas.NHAM02:0-114)، إنجيل توما، مخطوطة نجع حمادي II,2، مرخص بموجب [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+Copyright © 2026 Sam Habiel (سامح هابيل). The Arabic translation is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see [LICENSE.txt](LICENSE.txt).
