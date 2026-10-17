@@ -22,6 +22,7 @@ His likely source is Doresse's French translation (1959): Shadid uses Doresse's 
 - 3أ «يستميلونكم»: Doresse "those who seek to attract you".
 - 4أ «المثقل بالأيام»: Doresse "heavy with days".
 - 4ب «فسوف يبدو أن»: Doresse "it will be seen that".
+- 8 «من دون تردّد», «ممتازة», «ثم قال»: Doresse "without hesitating", "excellent", "Then he says" (see Saying 8).
 
 Other readings still differ from Doresse's English: 3د «يعرفونكم» (Doresse "you will be known"), 4أ «يتأخر» (Doresse "hesitate"), 3هـ «عُري» (Doresse "a state of poverty").
 These need checking against the French, which Shadid would have used; the English is itself a translation of it.
@@ -153,7 +154,36 @@ The full text, read from the page image (scan index 176):
 - **7ج:** Shadid keeps the manuscript reading "the lion becomes man", not the common emendation "the man becomes lion".
   Lambdin and Guillaumont also keep the manuscript reading, so this does not distinguish between sources.
 
+## Saying 8
+
+Shadid's ٨ (scan 176, printed page 175). Compared with Doresse's English (1960), the closest available stand-in for his French.
+
+### Evidence for Doresse
+
+- **8ج:** «ومن دون تردّد» ("without hesitation") for ⲭⲱⲣⲓⲥ ϩⲓⲥⲉ ("without toil").
+  Lambdin has "without difficulty" and Guillaumont *sans peine*; "without hesitating" is Doresse's distinctive reading.
+  The strongest single clue so far.
+- **8ب:** «ممتازة» ("excellent") for ⲉⲛⲁⲛⲟⲩϥ, which means only "good"; Doresse has "excellent".
+- **8أ:** «ثم قال» ("then he said") for ⲁⲩⲱ ⲡⲉϫⲁϥ ("and he said"); Doresse has "Then he says".
+- **8أ–ب:** «في وسطها» goes with the finding ("among them… found"), as in Doresse.
+  Many translations do this, so it is weak evidence; SCRIPTORIUM ends 8أ with ϩⲣⲁⲓ̈ ⲛ̄ϩⲏⲧⲟⲩ.
+- **8أ:** «رفعها» ("lifted") for ⲥⲱⲕ ("draw"), like Doresse "brought it up". Weak.
+
+### Closer to the Coptic than Doresse's English
+
+- **8أ:** «حكيماً» ("wise") for ⲣ̄ⲣⲙⲛ̄ϩⲏⲧ; Doresse's English has "skilled".
+  This may reflect Doresse's French word (e.g. *avisé*), so check the French.
+- **8أ:** «يشبه» keeps ⲧⲛ̄ⲧⲱⲛ ("resembles") as a verb; Doresse has "is like".
+
+### Omissions
+
+- **8ج:** ⲉⲃⲟⲗ ⲉⲡⲉⲥⲏⲧ ("out, down") is not translated; Doresse at least has "back".
+
+### Harmonization with the Arabic Bible
+
+- **8د:** «مَنْ له أذنان للسماع فليسمع» follows the Van Dyck formula (Mark 4:9 «للسمع»), with «للسماع» for «للسمع».
+
 ## To do
 
-- Borrow Doresse's French (1959) on archive.org and check: saying 54 as his 59; 3أ «يستميلونكم»; 3د «يعرفونكم»; 3هـ «عُري»; 4أ «المثقل بالأيام» and «يتأخر»; 4ب «فسوف يبدو أن»; 2ج «العالم»; 7 «ملعون» and «بحيث».
+- Borrow Doresse's French (1959) on archive.org and check: saying 54 as his 59; 3أ «يستميلونكم»; 3د «يعرفونكم»; 3هـ «عُري»; 4أ «المثقل بالأيام» and «يتأخر»; 4ب «فسوف يبدو أن»; 2ج «العالم»; 7 «ملعون» and «بحيث»; 8 ⲭⲱⲣⲓⲥ ϩⲓⲥⲉ («من دون تردّد»), ⲉⲛⲁⲛⲟⲩϥ («ممتازة») and ⲣ̄ⲣⲙⲛ̄ϩⲏⲧ («حكيماً»).
 - If the French does not settle it, check Ménard (1975), Leloup (1986), and the 1959 English edition by Guillaumont et al., especially at «عُري» (3هـ), «فيه» (3أ–ب), «يستميلونكم» (3أ) and «فسوف يبدو أن» (4ب).
