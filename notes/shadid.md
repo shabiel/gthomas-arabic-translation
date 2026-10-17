@@ -23,6 +23,7 @@ His likely source is Doresse's French translation (1959): Shadid uses Doresse's 
 - 4أ «المثقل بالأيام»: Doresse "heavy with days".
 - 4ب «فسوف يبدو أن»: Doresse "it will be seen that".
 - 8 «من دون تردّد», «ممتازة», «ثم قال»: Doresse "without hesitating", "excellent", "Then he says" (see Saying 8).
+- 9هـ «ممتازاً»: Doresse "excellent" again (see Saying 9).
 
 Other readings still differ from Doresse's English: 3د «يعرفونكم» (Doresse "you will be known"), 4أ «يتأخر» (Doresse "hesitate"), 3هـ «عُري» (Doresse "a state of poverty").
 These need checking against the French, which Shadid would have used; the English is itself a translation of it.
@@ -183,7 +184,32 @@ Shadid's ٨ (scan 176, printed page 175). Compared with Doresse's English (1960)
 
 - **8د:** «مَنْ له أذنان للسماع فليسمع» follows the Van Dyck formula (Mark 4:9 «للسمع»), with «للسماع» for «للسمع».
 
+## Saying 9
+
+Shadid's ٩ (scan 176, printed page 175).
+
+### Omission
+
+- **9د:** the seed that falls among thorns, is choked, and is eaten by the worm is missing entirely; Shadid goes straight from the rock to the good earth.
+  Doresse's English has both the thorns and the worm, so this is Shadid's own omission (or his typesetter's), like saying 54.
+
+### Evidence for Doresse
+
+- **9هـ:** «ممتازاً» ("excellent") for ⲉⲛⲁⲛⲟⲩϥ ("good"), as in 8ب.
+
+### Interpretive changes
+
+- **9ج:** «سنابل شامخة» ("lofty ears") replaces ⲉϩⲣⲁⲓ̈ ⲉⲧⲡⲉ ("up to heaven"); heaven does not appear.
+- **9ج:** «التجذّر» paraphrases ϫⲓⲛⲟⲩⲛⲉ ("take root") and drops ϫⲓ ("take").
+- **9أ:** «[من الحبوب]» supplies the seed, which the Coptic leaves implicit.
+- **9هـ:** «فأعطى المكيال» makes the measure the subject, and adds «[حتى]» between the two numbers.
+
+### Other readings
+
+- **9أ:** «هوذا» with no particle before it.
+- **9ب:** «لقطته» ("pecked it up") for ⲕⲱⲧϥ ("gather"), the natural verb for birds.
+
 ## To do
 
-- Borrow Doresse's French (1959) on archive.org and check: saying 54 as his 59; 3أ «يستميلونكم»; 3د «يعرفونكم»; 3هـ «عُري»; 4أ «المثقل بالأيام» and «يتأخر»; 4ب «فسوف يبدو أن»; 2ج «العالم»; 7 «ملعون» and «بحيث»; 8 ⲭⲱⲣⲓⲥ ϩⲓⲥⲉ («من دون تردّد»), ⲉⲛⲁⲛⲟⲩϥ («ممتازة») and ⲣ̄ⲣⲙⲛ̄ϩⲏⲧ («حكيماً»).
+- Borrow Doresse's French (1959) on archive.org and check: saying 54 as his 59; 3أ «يستميلونكم»; 3د «يعرفونكم»; 3هـ «عُري»; 4أ «المثقل بالأيام» and «يتأخر»; 4ب «فسوف يبدو أن»; 2ج «العالم»; 7 «ملعون» and «بحيث»; 8 ⲭⲱⲣⲓⲥ ϩⲓⲥⲉ («من دون تردّد»), ⲉⲛⲁⲛⲟⲩϥ («ممتازة») and ⲣ̄ⲣⲙⲛ̄ϩⲏⲧ («حكيماً»); 9 whether the French has the thorns sentence (the English does) and how it renders ⲉϩⲣⲁⲓ̈ ⲉⲧⲡⲉ.
 - If the French does not settle it, check Ménard (1975), Leloup (1986), and the 1959 English edition by Guillaumont et al., especially at «عُري» (3هـ), «فيه» (3أ–ب), «يستميلونكم» (3أ) and «فسوف يبدو أن» (4ب).
