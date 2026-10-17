@@ -6,6 +6,8 @@ Comparisons:
 
 - **English:** Thomas O. Lambdin's translation, the standard English rendering of the Coptic (quoted from memory; verify before citing).
 - **French:** A. Guillaumont, H.-C. Puech et al., *L'Évangile selon Thomas* (Paris, 1959), as given by the [Bibliothek der Kirchenväter](https://bkv.unifr.ch/fr/works/nhc-22/versions/livre-de-levangile-selon-thomas/divisions) (Université de Fribourg).
+- **Doresse:** Jean Doresse, *Les livres secrets des gnostiques d'Égypte*, vol. 2: *L'Évangile selon Thomas, ou les paroles secrètes de Jésus* (Paris, 1959), checked so far only through its English translation, *The Secret Books of the Egyptian Gnostics* (1960; [public upload](https://archive.org/details/the-secret-books-of-the-egyptian-gnostics-jean-doresse-berserker-books-finalfinal)).
+  The French is a lending-only book on archive.org ([bwb_S0-BYS-989](https://archive.org/details/bwb_S0-BYS-989)).
 
 ## Summary so far
 
@@ -15,8 +17,38 @@ Shadid follows neither Lambdin nor Guillaumont consistently.
 - **Agrees with Lambdin against Guillaumont:** 6ج «وسيلة تغذية» ("diet"; Guillaumont *en matière de nourriture*), 6هـ «تكرهونه» ("hate"; Guillaumont *récusez*), 7ب «ملعون» ("cursed"; Guillaumont *souillé*).
 - **Matches neither:** 2ج «العالم», 3أ «يستميلونكم», 3أ–ب «فيه», 3د «يعرفونكم», 3هـ «عُري», 4أ «على… ألا يتأخر», 4ب «فسوف يبدو أن».
 
-So he may have worked from a third translation, or combined several.
-Candidates still to check: Ménard (1975, French), Leloup (1986, French), and the 1959 English edition by Guillaumont et al.
+His likely source is Doresse's French translation (1959): Shadid uses Doresse's numbering exactly (see Numbering below), and several readings that match neither Lambdin nor Guillaumont match Doresse's English:
+
+- 3أ «يستميلونكم»: Doresse "those who seek to attract you".
+- 4أ «المثقل بالأيام»: Doresse "heavy with days".
+- 4ب «فسوف يبدو أن»: Doresse "it will be seen that".
+
+Other readings still differ from Doresse's English: 3د «يعرفونكم» (Doresse "you will be known"), 4أ «يتأخر» (Doresse "hesitate"), 3هـ «عُري» (Doresse "a state of poverty").
+These need checking against the French, which Shadid would have used; the English is itself a translation of it.
+Other candidates, if the French does not settle it: Ménard (1975, French), Leloup (1986, French), and the 1959 English edition by Guillaumont et al.
+
+## Numbering
+
+Shadid numbers the sayings 1–118, not 1–114. The 118-saying division is Doresse's, and Shadid's numbers match Doresse's throughout, except at one point (below).
+`notes/shadid-index.tsv` maps each standard saying to Shadid's number and to the scan and printed page.
+
+Differences from the standard numbering, all shared with Doresse:
+
+- Standard 1 is unnumbered, printed as part of the prologue, so Shadid 1 is standard 2.
+- Split sayings: 3 → 2, 3; 11 → 11, 12; 19 → 20–22; 21 → 24–26.
+- Merged sayings: 59 and 60 → 64.
+
+The one difference from Doresse: standard 54 ("Blessed are the poor…") is missing, and Shadid's numbers skip 60.
+
+| Standard | Doresse | Shadid |
+|---|---|---|
+| 53 | 58 | ٥٨ |
+| 54 | 59 | (missing) |
+| 55 | 60 | ٥٩ |
+| 56 | 61 | ٦١ |
+
+So Shadid (or his typesetter) dropped Doresse's 59 and gave Doresse's 60 the number ٥٩.
+From ٦١ on, the numbers agree with Doresse's again.
 
 His introduction says the gospel was written «في سوريا باللغة القبطية» in the second century.
 The usual view is that it was composed in Greek (Syria is a common guess for its origin), and the Coptic is a translation.
@@ -91,24 +123,29 @@ The usual view is that it was composed in Greek (Syria is a common guess for its
 
 ## Saying 7
 
-The archive.org OCR text loses the first line of this saying at a page break; only the end survives:
-«…يصبح الأسد إنساناً. إنما ملعون الإنسان الذى يأكله الأسد بحيث يصبح الأسد انساناً!»
+The archive.org OCR text drops the first line of this saying (in the middle of printed page 175, not at a page break).
+The full text, read from the page image (scan index 176):
+«٧. قال يسوع: «طوبى لذلك الأسد الذي يأكله الإنسان بحيث يصبح الأسد إنساناً. إنما ملعون الإنسان الذي يأكله الأسد بحيث يصبح الأسد انساناً!»
 
 ### Evidence for a European source
 
 - **7ب:** «ملعون» ("cursed").
   The Coptic ϥⲃⲏⲧ is the stative of ⲃⲱⲧⲉ, "be polluted, abominable"; Guillaumont has *souillé* ("defiled").
   "Cursed" is Lambdin's rendering ("and cursed is the man whom the lion consumes").
-- **7أ–7ب (tentative, since the first line is lost):** the surviving «…يصبح الأسد إنساناً» before «إنما ملعون» suggests Shadid joined the first two clauses as "the lion… so that it becomes man".
+- **7أ–7ب:** «طوبى لذلك الأسد الذي يأكله الإنسان بحيث يصبح الأسد إنساناً» joins the first two clauses as "blessed is that lion which man eats, so that the lion becomes man".
   Lambdin restructures this way ("Blessed is the lion which becomes man when consumed by man"), and Guillaumont's *Heureux est le lion que l'homme mangera, et le lion sera homme* also runs them together.
   The Coptic keeps them separate: 7أ ends at ⲛⲁⲟⲩⲟⲙϥ, and ⲁⲩⲱ ⲛ̄ⲧⲉⲡⲙⲟⲩⲉⲓ ϣⲱⲡⲉ ⲣ̄ⲣⲱⲙⲉ begins a new coordinated clause.
-  Check against the page image on archive.org.
+
+### Closer to the Coptic
+
+- **7أ (weak):** «لذلك الأسد» ("that lion") may reflect the demonstrative ⲡⲁⲉⲓ in ⲡⲙⲟⲩⲉⲓ ⲡⲁⲉⲓ ⲉⲧⲉ‑, which neither Lambdin ("the lion which") nor Guillaumont (*le lion que*) keeps.
+  But ⲡⲁⲉⲓ ⲉⲧⲉ‑ is the ordinary Coptic way of saying "the one which", so «ذلك» may just be Shadid's style.
 
 ### Interpretive additions
 
 - **7ب:** «إنما» adds a contrast; the Coptic has only ⲁⲩⲱ ("and").
-- **7ج:** «بحيث» ("so that") turns ⲁⲩⲱ ("and") into a result clause.
-- **7ب:** «يأكله» is present; the Coptic ⲛⲁⲟⲩⲟⲙϥ is future (Guillaumont *mangera*).
+- **7أ, 7ج:** «بحيث» ("so that") turns ⲁⲩⲱ ("and") into a result clause in both halves, making them parallel.
+- **7أ, 7ب:** «يأكله» is present in both halves; the Coptic ⲛⲁⲟⲩⲟⲙϥ is future (Guillaumont *mangera*).
 - A footnote reads the saying as matter (the lion) against spirit (the divine element in man).
 
 ### Textual reading
@@ -118,5 +155,5 @@ The archive.org OCR text loses the first line of this saying at a page break; on
 
 ## To do
 
-- Check Ménard (1975), Leloup (1986), and the 1959 English edition by Guillaumont et al., especially at «عُري» (3هـ), «فيه» (3أ–ب), «يستميلونكم» (3أ) and «فسوف يبدو أن» (4ب).
-- Recover the first line of saying 7 from the archive.org page image.
+- Borrow Doresse's French (1959) on archive.org and check: saying 54 as his 59; 3أ «يستميلونكم»; 3د «يعرفونكم»; 3هـ «عُري»; 4أ «المثقل بالأيام» and «يتأخر»; 4ب «فسوف يبدو أن»; 2ج «العالم»; 7 «ملعون» and «بحيث».
+- If the French does not settle it, check Ménard (1975), Leloup (1986), and the 1959 English edition by Guillaumont et al., especially at «عُري» (3هـ), «فيه» (3أ–ب), «يستميلونكم» (3أ) and «فسوف يبدو أن» (4ب).
