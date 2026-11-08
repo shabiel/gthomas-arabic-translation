@@ -123,6 +123,15 @@ const POS = {noun: ["N", "NPROP", "NUM"], verb: ["V", "VSTAT", "VBD", "VIMP"],
 const posClass = tag => Object.keys(POS).find(k => POS[k].includes(tag.split("_")[0])) || "mark";
 // An Arabic segment takes the colour of its most contentful Coptic morpheme.
 const RANK = ["verb", "noun", "pron", "prep", "conj", "art", "mark"];
+// Safari shapes each <span> on its own, so a word split into pieces (يَ|جِدَ) loses its joins.
+// A zero-width joiner on both sides of the split restores them; only after letters that
+// connect to the next one (not ا د ذ ر ز و ة …), or it would create false joins.
+const ZWJ = "\u200d";
+const JOINS_NEXT = /[بتثجحخسشصضطظعغفقكلمنهيئىـ]/;
+const lastLetter = t => t.replace(/[\u064b-\u0652\u0670]/g, "").slice(-1);
+// Touch: a tap lights a pair for 3 seconds; a mouse lights it while hovering.
+let tapTimer = null;
+const clearAll = () => document.querySelectorAll(".hl").forEach(e => e.classList.remove("hl"));
 let saying = null;
 for (const v of DATA) {
   const logion = v.label.match(/^\d+/)[0];
@@ -157,11 +166,18 @@ for (const v of DATA) {
       mEls[i] = el; cop.appendChild(el);
     }
   });
+  const texts = v.segs.map(s => s.a);
+  v.segs.forEach((s, si) => {
+    const next = v.segs[si + 1];
+    if (next && next.j && JOINS_NEXT.test(lastLetter(s.a)) && /^[\u0621-\u064a]/.test(next.a)) {
+      texts[si] += ZWJ; texts[si + 1] = ZWJ + texts[si + 1];
+    }
+  });
   v.segs.forEach((s, si) => {
     if (si && !s.j) ar.appendChild(document.createTextNode(" "));
     const el = document.createElement("span");
     el.className = "s" + (s.c.length || /^[.؟!،]+$/.test(s.a) ? "" : " add");
-    el.textContent = s.a;
+    el.textContent = texts[si];
     const cls = s.c.map(i => posClass(v.morphs[i].p));
     if (cls.length) el.dataset.pos = RANK.find(k => cls.includes(k));
     sEls[si] = el; ar.appendChild(el);
@@ -174,12 +190,15 @@ for (const v of DATA) {
     if (!el) return;
     const on = () => linked(kind, i).forEach(e => e.classList.add("hl"));
     const off = () => linked(kind, i).forEach(e => e.classList.remove("hl"));
-    el.addEventListener("mouseenter", on);
-    el.addEventListener("mouseleave", off);
+    let pointer = "mouse";
+    el.addEventListener("pointerdown", e => { pointer = e.pointerType; });
+    el.addEventListener("pointerenter", e => { if (e.pointerType === "mouse") on(); });
+    el.addEventListener("pointerleave", e => { if (e.pointerType === "mouse") off(); });
     el.addEventListener("click", () => {
-      const lit = el.classList.contains("hl");
-      document.querySelectorAll(".hl").forEach(e => e.classList.remove("hl"));
-      if (!lit) on();
+      if (pointer === "mouse") return;
+      clearTimeout(tapTimer);
+      clearAll(); on();
+      tapTimer = setTimeout(clearAll, 3000);
     });
   });
   wire(mEls, "m"); wire(sEls, "s");
