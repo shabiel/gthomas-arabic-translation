@@ -25,6 +25,10 @@ His likely source is Doresse's French translation (1959): Shadid uses Doresse's 
 - 8 «من دون تردّد», «ممتازة», «ثم قال»: Doresse "without hesitating", "excellent", "Then he says" (see Saying 8).
 - 9هـ «ممتازاً»: Doresse "excellent" again (see Saying 9).
 - 11 (Shadid ١١–١٢): «لكن الذين هم أموات», «اليوم، تأكلون أشياء ميتة», «[لكن]» and the reordered «اثنين … وأنتم واحد» all follow Doresse's English (see Saying 11).
+- 33 (Shadid ٣٨): «بأذنك، وبالأذن الأخرى» and «أو يضعه»: Doresse "with thine ear, and the other ear" and "or in a hidden place" (see Saying 33).
+- 34 (Shadid ٣٩): «أعمى آخر»: Doresse "another blind man" (see Saying 34).
+- 35 (Shadid ٤٠): «ويعتدي عليه» and the bracketed «[فقط]»: Doresse "do him violence" and "<only>" (see Saying 35).
+- 36 (Shadid ٤١): «لا تهتمّوا … بما ستلبسون» follows Van Dyck's Matthew 6:25 rather than Doresse (see Saying 36).
 
 Other readings still differ from Doresse's English: 3د «يعرفونكم» (Doresse "you will be known"), 4أ «يتأخر» (Doresse "hesitate"), 3هـ «عُري» (Doresse "a state of poverty").
 These need checking against the French, which Shadid would have used; the English is itself a translation of it.
@@ -256,6 +260,98 @@ Like Doresse, he splits the saying in two, starting ١٢ at 11د.
 ### Departures from the Coptic
 
 - **11ب:** «لن يحيَوا» is future; ⲥⲉⲟⲛϩ ⲁⲛ is present ("are not alive"). Doresse also has "will not live".
+
+## Saying 33
+
+Shadid's ٣٨ (scan 181, printed page 180).
+
+### Evidence for Doresse
+
+- **33أ:** «بأذنك، وبالأذن الأخرى» ("with your ear, and with the other ear"); Doresse has "with thine ear, and the other ear".
+  The Coptic repeats ϩⲙ̄ ("in") without "and": ϩⲙ̄ⲡⲉⲕⲙⲁⲁϫⲉ ϩⲙ̄ⲡⲕⲉⲙⲁⲁϫⲉ.
+- **33ج:** «أو يضعه» ("or puts it"); Doresse has "or in a hidden place". The Coptic ⲟⲩⲇⲉ is "nor".
+
+### Harmonization with the Arabic Bible
+
+- **33ب:** «يوقد سراجاً ويضعه تحت المكيال» follows Van Dyck's Matthew 5:15 («يُوقِدُونَ سِرَاجاً وَيَضَعُونَهُ تَحْتَ الْمِكْيَالِ»), with «المكيال» definite; the Coptic ϩⲁⲙⲁⲁϫⲉ has no article.
+  But for the lampstand Shadid has «الشمعدان», not Van Dyck's «المنارة».
+
+### Closer to the Coptic than Doresse's English
+
+- **33د:** «نوره» ("its light") keeps the possessive of ⲡⲉϥⲟⲩⲟⲉⲓⲛ; Doresse's English has "the light".
+
+### Departures from the Coptic
+
+- **33أ:** «سطوحك» ("your roofs", singular "your"); the Coptic ⲛⲉⲧⲛ̄ϫⲉⲛⲉⲡⲱⲣ is plural ("your" plural), and Doresse has "the roof-tops".
+- **33أ:** «أعلنْه فوق سطوحك!» adds an exclamation mark.
+
+### Other readings
+
+- **33أ–ب:** ⲙⲁⲁϫⲉ is both "ear" (33أ) and "measure" (33ب), a wordplay. Shadid, like Doresse, uses two different words («أذن», «المكيال»), as does this translation («أذن», «مكيال»).
+
+## Saying 34
+
+Shadid's ٣٩ (scan 181, printed page 180).
+
+### Evidence for Doresse
+
+- **34أ:** «أعمى آخر» ("another blind man") for ⲛ̄ⲛⲟⲩⲃⲗ︦ⲗⲉ ("a blind man"); Doresse has "another blind man".
+
+### Harmonization with the Arabic Bible
+
+- **34أ:** «يسقط الإثنان في حفرة» is close to Van Dyck's Luke 6:39 («أَمَا يَسْقُطُ الاثْنَانِ فِي حُفْرَةٍ؟»).
+
+### Closer to the Coptic
+
+- **34أ:** «إذا قاد … يسقط» keeps the ordinary conditional (ⲉϥϣⲁⲛ) and the present for the aorist ϣⲁⲩϩⲉ ("they fall"). This translation made the same choice, replacing «لو».
+
+### Omissions
+
+- **34أ:** ⲉⲡⲉⲥⲏⲧ ("down") is not translated; Doresse's English also lacks it.
+
+## Saying 35
+
+Shadid's ٤٠ (scan 181, printed page 180).
+
+### Evidence for Doresse
+
+- **35أ:** «ويعتدي عليه» ("and assaults him") for ⲛ̄ϥϫⲓⲧϥ ⲛ̄ϫⲛⲁϩ ("and take it by force"); Doresse has "do him violence".
+- **35ب:** «[فقط]» ("only") in brackets; Doresse has "<only>", also marked as an addition. The Coptic has no "only".
+
+### Harmonization with the Arabic Bible
+
+- **35ب:** «ينهب منزله» ("plunders his house") matches the verb of Van Dyck's Mark 3:27 («وَحِينَئِذٍ يَنْهَبُ بَيْتَهُ»); Doresse has "plunder" too.
+
+### Textual reading
+
+- **35ب:** ⲡⲱⲱⲛⲉ ⲉⲃⲟⲗ is "move out, go forth" (intransitive) or "carry out, remove" (transitive) in the lexicon (KELLIA, citing Crum 265a); "plunder" is not a dictionary sense.
+  Shadid («ينهب منزله»), Doresse ("plunder his house") and most translations take ⲙ̄ⲡⲉϥⲏⲉⲓ as the object and interpret "remove his house" as plundering it.
+  This translation takes the intransitive sense with ⲉⲃⲟⲗ ⲙ̄ as "out of": «فسيتحرّك من بيته» ("he will move out of his house").
+
+### Other readings
+
+- **35أ:** «إن لم يوثق يديه» for ⲉⲓⲙⲏⲧⲓ ("unless"); Doresse "if he has not tied his hands". This translation has «إلّا أن يربط يديه».
+- **35أ–ب:** «منزل» for ⲏⲉⲓ ("house"), where this translation has «بيت».
+
+## Saying 36
+
+Shadid's ٤١ (scan 181, printed page 180).
+
+### Harmonization with the Arabic Bible
+
+- **36:** «لا تهتمّوا» for ⲙⲛ̄ϥⲓⲣⲟⲟⲩϣ ("do not be anxious"), the verb of Van Dyck's parallel Matthew 6:25 («لاَ تَهْتَمُّوا لِحَيَاتِكُمْ»).
+  Doresse has "Have no care". This translation keeps the two parts of ϥⲓ ⲣⲟⲟⲩϣ ("carry care"): «لا تحملوا همّاً».
+- **36:** «بما ستلبسون» ("what you will wear"), the Matthew 6:25 wording, for ⲧⲁⲁϥ ϩⲓⲱⲧ⳿ⲧⲏⲩⲧⲛ̄ (literally "put it upon yourselves").
+  Doresse's "what you shall put on" stays closer to the Coptic, as does this translation's «بما ستضعونه على أنفسكم».
+
+### Omissions
+
+- **36:** «قال يسوع» is missing; the saying opens directly with «لا تهتمّوا». The Coptic has ⲡⲉϫⲉⲓ︤ⲥ︥, and Doresse has "Jesus says".
+- **36:** The resumptive ϥ ("it") in ⲡⲉⲧⲉⲧⲛⲁⲧⲁⲁϥ is not rendered («ستلبسون», not «ستلبسونه»).
+
+### Interpretive additions
+
+- **36:** an exclamation mark, «!», where the Coptic has none.
 
 ## To do
 

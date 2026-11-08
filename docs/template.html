@@ -160,7 +160,9 @@ for (const v of DATA) {
     for (const i of ids) {
       const m = v.morphs[i], el = document.createElement("span");
       el.className = "m" + (m.seg.length || m.p === "PUNCT" ? "" : " none");
-      el.textContent = m.d;
+      // Noto Sans Coptic draws the overline half-marks (︤ ︥) as two short dashes that do not
+      // meet; a full overline (U+0305) on each letter gives one continuous bar, as in ⲓ̅ⲥ̅.
+      el.textContent = m.d.replace(/[\ufe24-\ufe26]/g, "\u0305");
       el.title = m.l + " · " + m.p;
       el.dataset.pos = posClass(m.p);
       mEls[i] = el; cop.appendChild(el);
