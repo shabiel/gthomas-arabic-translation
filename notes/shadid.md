@@ -24,6 +24,7 @@ His likely source is Doresse's French translation (1959): Shadid uses Doresse's 
 - 4ب «فسوف يبدو أن»: Doresse "it will be seen that".
 - 8 «من دون تردّد», «ممتازة», «ثم قال»: Doresse "without hesitating", "excellent", "Then he says" (see Saying 8).
 - 9هـ «ممتازاً»: Doresse "excellent" again (see Saying 9).
+- 11 (Shadid ١١–١٢): «لكن الذين هم أموات», «اليوم، تأكلون أشياء ميتة», «[لكن]» and the reordered «اثنين … وأنتم واحد» all follow Doresse's English (see Saying 11).
 
 Other readings still differ from Doresse's English: 3د «يعرفونكم» (Doresse "you will be known"), 4أ «يتأخر» (Doresse "hesitate"), 3هـ «عُري» (Doresse "a state of poverty").
 These need checking against the French, which Shadid would have used; the English is itself a translation of it.
@@ -208,6 +209,53 @@ Shadid's ٩ (scan 176, printed page 175).
 
 - **9أ:** «هوذا» with no particle before it.
 - **9ب:** «لقطته» ("pecked it up") for ⲕⲱⲧϥ ("gather"), the natural verb for birds.
+
+## Saying 10
+
+Shadid's ١٠ (scan 176, printed page 175).
+
+### Evidence for Doresse
+
+- **10ب:** «أسهر عليه» ("keep watch over it") for ϯϩⲁⲣⲉϩ ⲉⲣⲟϥ; Doresse has "I watch over it", Lambdin "I am guarding it".
+  Weak on its own, since ϩⲁⲣⲉϩ can mean both.
+
+### Departures from the Coptic
+
+- **10أ:** «النار» is definite; the Coptic ⲟⲩⲕⲱϩⲧ is indefinite ("a fire"), as in Doresse ("a fire").
+
+### Textual reading
+
+- **10ب:** «عليه … يضطرم» are masculine, so Shadid reads "it" (ⲉⲣⲟϥ, ϣⲁⲛⲧⲉϥϫⲉⲣⲟ) as the world.
+  The Coptic allows either the world or the fire (both masculine); this translation also reads it as the world («أحرسه حتى يشتعل»).
+  Doresse's English "it" does not decide; his French may (*feu* and *monde* are both masculine, so probably not).
+
+## Saying 11
+
+Shadid's ١١ (scan 176, printed page 175) and ١٢ (scan 177, printed page 176).
+Like Doresse, he splits the saying in two, starting ١٢ at 11د.
+
+### Evidence for Doresse
+
+- **11ب:** «لكن الذين هم أموات» ("but those who are dead"); Doresse "but those who are dead". The Coptic has ⲁⲩⲱ ("and").
+- **11ج–د:** «اليوم» ("today") starts ١٢; Doresse "Today". The Coptic ⲛ̄ϩⲟⲟⲩ is "the days", plural.
+- **11د:** «تأكلون أشياء ميتة وتصنعون منها ما هو حي»; Doresse "you eat dead things and make them into something [living]".
+  Present tense and plural "things", where the Coptic has the preterit (ⲛⲉⲧⲉⲧⲛ̄ⲟⲩⲱⲙ, "you used to eat") and the singular ⲡⲉⲧⲙⲟⲟⲩⲧ ("what is dead").
+- **11هـ:** «[لكن]» in brackets; Doresse "<but>", also marked as an addition.
+- **11هـ–و:** «حيث تصبحون اثنين، وأنتم واحد» reorders the clauses ("you become two, being one"); Doresse "you will become two instead of one".
+  The Coptic order is "on the day you are one, you became two", with the perfect ⲁⲧⲉⲧⲛ̄ⲉⲓⲣⲉ.
+
+### Harmonization with the Arabic Bible
+
+- **11أ:** «ستزول» for ⲣ̄ⲡⲁⲣⲁⲅⲉ ("pass away"), the verb of Van Dyck's «السماء والأرض تزولان» (Matthew 24:35).
+  This translation adopted «ستزول» too, in place of «ستندثر».
+
+### Closer to the Coptic
+
+- **11ب–ج:** «الذين هم أموات … الذين هم أحياء» keeps the relative structure of ⲛⲉⲧⲙⲟⲟⲩⲧ … ⲛⲉⲧⲟⲛϩ ("those who are dead… those who are alive").
+
+### Departures from the Coptic
+
+- **11ب:** «لن يحيَوا» is future; ⲥⲉⲟⲛϩ ⲁⲛ is present ("are not alive"). Doresse also has "will not live".
 
 ## To do
 
