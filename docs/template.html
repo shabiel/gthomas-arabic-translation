@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thomas: Coptic and Arabic</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400&family=Noto+Naskh+Arabic:wght@400;700&family=Noto+Sans+Coptic&display=swap" rel="stylesheet">
+<style>
+/* Palette, font stacks and components follow coptic-reader (css/themes.css, css/reader.css). */
+:root {
+  --ground: #f4ecd8; --ground-2: #ede2c6; --ground-3: #e2d4b0;
+  --ink: #2b1d14; --ink-2: #5a4636; --ink-3: #8a7560;
+  --red: #8a2b1e; --blue: #1f3a6e; --teal: #3f7f82;
+  --gold: #b08d3c; --gold-soft: rgba(176, 141, 60, 0.35);
+  --hl: rgba(31, 58, 110, 0.16); --hl-strong: rgba(31, 58, 110, 0.32);
+  --font-latin: "Gentium Plus", "Gentium", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-coptic: "Noto Sans Coptic", "Antinoou", "New Athena Unicode", sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Amiri", "Scheherazade", "Traditional Arabic", serif;
+  --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --pos-noun: rgba(53, 89, 143, 0.26); --pos-verb: rgba(158, 68, 42, 0.26); --pos-pron: rgba(63, 122, 92, 0.28);
+  --pos-art: rgba(196, 154, 60, 0.38); --pos-prep: rgba(122, 79, 143, 0.24); --pos-conj: rgba(90, 70, 54, 0.18);
+  --pos-mark: rgba(63, 127, 130, 0.26);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #1a1512; --ground-2: #221c17; --ground-3: #2e261f;
+    --ink: #e8dcc4; --ink-2: #c4b596; --ink-3: #8f8066;
+    --red: #d9776a; --blue: #8fa9dc; --teal: #7fb7b9;
+    --gold: #c9a55a; --gold-soft: rgba(201, 165, 90, 0.35);
+    --hl: rgba(143, 169, 220, 0.20); --hl-strong: rgba(143, 169, 220, 0.40);
+    --pos-noun: rgba(120, 155, 215, 0.36); --pos-verb: rgba(217, 119, 106, 0.36); --pos-pron: rgba(110, 190, 145, 0.32);
+    --pos-art: rgba(201, 165, 90, 0.40); --pos-prep: rgba(180, 140, 210, 0.34); --pos-conj: rgba(196, 181, 150, 0.24);
+    --pos-mark: rgba(127, 183, 185, 0.32);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #1a1512; --ground-2: #221c17; --ground-3: #2e261f;
+  --ink: #e8dcc4; --ink-2: #c4b596; --ink-3: #8f8066;
+  --red: #d9776a; --blue: #8fa9dc; --teal: #7fb7b9;
+  --gold: #c9a55a; --gold-soft: rgba(201, 165, 90, 0.35);
+  --hl: rgba(143, 169, 220, 0.20); --hl-strong: rgba(143, 169, 220, 0.40);
+  --pos-noun: rgba(120, 155, 215, 0.36); --pos-verb: rgba(217, 119, 106, 0.36); --pos-pron: rgba(110, 190, 145, 0.32);
+  --pos-art: rgba(201, 165, 90, 0.40); --pos-prep: rgba(180, 140, 210, 0.34); --pos-conj: rgba(196, 181, 150, 0.24);
+  --pos-mark: rgba(127, 183, 185, 0.32);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--font-latin);
+       line-height: 1.75; -webkit-font-smoothing: antialiased; }
+a { color: var(--blue); }
+.site-header { padding: 0.7rem 1.25rem 0.55rem; background: var(--ground-2); border-bottom: 1px solid var(--gold-soft); }
+.site-header h1 { margin: 0 auto; max-width: 1000px; font-weight: 400; font-size: 1.35rem; letter-spacing: 0.02em; }
+main { max-width: 1000px; margin: 0 auto; padding: 1.25rem 1.25rem 4rem; }
+.intro { color: var(--ink-2); margin: 0 0 1rem; font-style: italic; }
+.chapter-title { display: grid; grid-template-columns: 3rem minmax(0, 1fr) minmax(0, 1fr); gap: 0 1.6rem;
+                 align-items: baseline; margin: 2rem 0 0.25rem; padding-bottom: 0.4rem;
+                 border-bottom: 1px solid var(--gold); font-weight: 400; font-size: 1.6rem; letter-spacing: 0.04em; }
+.chapter-title .en { grid-column: 2; }
+.chapter-title .ar-title { grid-column: 3; font-family: var(--font-arabic); font-size: 1.5rem; letter-spacing: 0;
+                           direction: rtl; text-align: right; }
+.verse { display: grid; grid-template-columns: 3rem minmax(0, 1fr) minmax(0, 1fr); gap: 0 1.6rem;
+         padding: 0.55rem 0; border-bottom: 1px dashed var(--gold-soft); align-items: baseline; }
+.label { font-family: var(--font-ui); font-size: 0.75rem; color: var(--gold); letter-spacing: 0.04em; direction: ltr; unicode-bidi: isolate; }
+.cop { font-family: var(--font-coptic); font-size: 1.1rem; direction: ltr; }
+.ar  { font-family: var(--font-arabic); font-size: 1.3rem; line-height: 2; direction: rtl; }
+/* Only colours change on hover: padding or margins inside an Arabic word would break letter joining. */
+.m, .s { cursor: pointer; border-radius: 3px; }
+.m.none { color: var(--ink-3); }
+.s.add { color: var(--teal); }
+.hl { --c: var(--hl); background: var(--c); box-shadow: 0 0 0 2px var(--c); }
+.hl[data-pos="noun"] { --c: var(--pos-noun); }
+.hl[data-pos="verb"] { --c: var(--pos-verb); }
+.hl[data-pos="pron"] { --c: var(--pos-pron); }
+.hl[data-pos="art"]  { --c: var(--pos-art); }
+.hl[data-pos="prep"] { --c: var(--pos-prep); }
+.hl[data-pos="conj"] { --c: var(--pos-conj); }
+.hl[data-pos="mark"] { --c: var(--pos-mark); }
+.legend { display: flex; flex-wrap: wrap; gap: 0.35rem 0.9rem; margin: 0 0 0.5rem;
+          font-family: var(--font-ui); font-size: 0.78rem; color: var(--ink-2); }
+.legend span::before { content: ""; display: inline-block; width: 0.9em; height: 0.9em; margin-right: 0.35em;
+                       vertical-align: -0.1em; border-radius: 2px; background: var(--c); }
+footer { margin-top: 2.5rem; padding-top: 0.8rem; border-top: 1px solid var(--gold-soft);
+         color: var(--ink-3); font-family: var(--font-ui); font-size: 0.8rem; }
+footer a { color: inherit; }
+@media (max-width: 640px) {
+  .verse { grid-template-columns: 2.5rem minmax(0, 1fr); }
+  .chapter-title { grid-template-columns: 1fr auto; }
+  .chapter-title .en { grid-column: 1; }
+  .chapter-title .ar-title { grid-column: 2; }
+  .ar { grid-column: 2; }
+}
+</style>
+</head>
+<body>
+<header class="site-header"><h1>Gospel of Thomas: Coptic and Arabic</h1></header>
+<main>
+<p class="intro">Hover over (or tap) a piece of the Coptic or the Arabic to see its counterpart.
+Faded Coptic has no Arabic counterpart; teal Arabic has no Coptic counterpart.</p>
+<div class="legend" aria-label="Highlight colours">
+<span style="--c: var(--pos-noun)">noun</span><span style="--c: var(--pos-verb)">verb</span>
+<span style="--c: var(--pos-pron)">pronoun</span><span style="--c: var(--pos-art)">article</span>
+<span style="--c: var(--pos-prep)">preposition</span><span style="--c: var(--pos-conj)">conjunction, particle</span>
+<span style="--c: var(--pos-mark)">tense marker, converter</span>
+</div>
+<div id="text"></div>
+<footer>
+Coptic text: <a href="https://data.copticscriptorium.org/urn:cts:copticLit:nh.thomas.NHAM02:0-114">Coptic SCRIPTORIUM</a>,
+Gospel of Thomas, Nag Hammadi Codex II,2, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+<a href="https://github.com/shabiel/gthomas-arabic-translation">Arabic translation</a> © Sam Habiel (سامح هابيل), CC BY 4.0.
+</footer>
+</main>
+<script>
+const DATA = /*DATA*/null;
+const root = document.getElementById("text");
+// SCRIPTORIUM part-of-speech tags, grouped into the colour classes of the legend.
+const POS = {noun: ["N", "NPROP", "NUM"], verb: ["V", "VSTAT", "VBD", "VIMP"],
+  pron: ["PPERS", "PPERO", "PPERI", "PPOS", "PDEM", "PINT"], art: ["ART"], prep: ["PREP"],
+  conj: ["CONJ", "PTC", "NEG", "ADV", "EXIST", "IMOD", "COP", "PUNCT"]};
+const posClass = tag => Object.keys(POS).find(k => POS[k].includes(tag.split("_")[0])) || "mark";
+// An Arabic segment takes the colour of its most contentful Coptic morpheme.
+const RANK = ["verb", "noun", "pron", "prep", "conj", "art", "mark"];
+let saying = null;
+for (const v of DATA) {
+  const logion = v.label.match(/^\d+/)[0];
+  if (logion !== saying) {
+    saying = logion;
+    const h = document.createElement("h2");
+    h.className = "chapter-title";
+    const en = document.createElement("span"), arT = document.createElement("span");
+    en.className = "en"; en.textContent = "Saying " + logion;
+    arT.className = "ar-title"; arT.lang = "ar"; arT.dir = "rtl";
+    arT.textContent = "القول " + logion.replace(/\d/g, d => "٠١٢٣٤٥٦٧٨٩"[d]);
+    h.append(en, arT);
+    root.appendChild(h);
+  }
+  const row = document.createElement("div");
+  row.className = "verse";
+  const lab = document.createElement("div");
+  lab.className = "label"; lab.textContent = v.label;
+  const cop = document.createElement("div");
+  cop.className = "cop"; cop.lang = "cop";
+  const ar = document.createElement("div");
+  ar.className = "ar"; ar.lang = "ar"; ar.dir = "rtl";
+  const mEls = [], sEls = [];
+  v.groups.forEach((ids, gi) => {
+    if (gi) cop.appendChild(document.createTextNode(" "));
+    for (const i of ids) {
+      const m = v.morphs[i], el = document.createElement("span");
+      el.className = "m" + (m.seg.length || m.p === "PUNCT" ? "" : " none");
+      el.textContent = m.d;
+      el.title = m.l + " · " + m.p;
+      el.dataset.pos = posClass(m.p);
+      mEls[i] = el; cop.appendChild(el);
+    }
+  });
+  v.segs.forEach((s, si) => {
+    if (si && !s.j) ar.appendChild(document.createTextNode(" "));
+    const el = document.createElement("span");
+    el.className = "s" + (s.c.length || /^[.؟!،]+$/.test(s.a) ? "" : " add");
+    el.textContent = s.a;
+    const cls = s.c.map(i => posClass(v.morphs[i].p));
+    if (cls.length) el.dataset.pos = RANK.find(k => cls.includes(k));
+    sEls[si] = el; ar.appendChild(el);
+  });
+  // A piece lights up together with everything linked to it through its segment(s).
+  const groupOfSeg = si => [[sEls[si]], v.segs[si].c.map(i => mEls[i])].flat();
+  const linked = (kind, i) => kind === "s" ? groupOfSeg(i)
+    : v.morphs[i].seg.length ? v.morphs[i].seg.flatMap(groupOfSeg) : [mEls[i]];
+  const wire = (els, kind) => els.forEach((el, i) => {
+    if (!el) return;
+    const on = () => linked(kind, i).forEach(e => e.classList.add("hl"));
+    const off = () => linked(kind, i).forEach(e => e.classList.remove("hl"));
+    el.addEventListener("mouseenter", on);
+    el.addEventListener("mouseleave", off);
+    el.addEventListener("click", () => {
+      const lit = el.classList.contains("hl");
+      document.querySelectorAll(".hl").forEach(e => e.classList.remove("hl"));
+      if (!lit) on();
+    });
+  });
+  wire(mEls, "m"); wire(sEls, "s");
+  row.append(lab, cop, ar);
+  root.appendChild(row);
+}
+</script>
+</body>
+</html>

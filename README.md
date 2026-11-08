@@ -3,6 +3,8 @@ This repo contains a literal Arabic translation of the Gospel of Thomas from the
 - Translation by إسكندر شديد in [الأناجيل المنحولة](https://archive.org/details/20221113_20221113_1619/%D8%A7%D9%84%D8%A3%D9%86%D8%A7%D8%AC%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AD%D9%88%D9%84%D8%A9). The source language isn't stated, but the context suggests French and English.
 - An anonymous [translation from English](https://www.drghaly.com/articles/display/12225).
 
+Read it online: the [Coptic–Arabic side-by-side view](https://shabiel.github.io/gthomas-arabic-translation/) shows the translation next to the Coptic; hover over a word to see its counterpart.
+
 Translated by Sam Habiel
 
 ---
@@ -13,6 +15,8 @@ Translated by Sam Habiel
 
 - ترجمة إسكندر شديد في [الأناجيل المنحولة](https://archive.org/details/20221113_20221113_1619/%D8%A7%D9%84%D8%A3%D9%86%D8%A7%D8%AC%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AD%D9%88%D9%84%D8%A9). لا تذكر الترجمة لغة المصدر، ولكن يبدو من السياق أنها الفرنسية والإنكليزية.
 - [ترجمة لمترجم مجهول عن الإنكليزية](https://www.drghaly.com/articles/display/12225).
+
+اقرأ الترجمة على الإنترنت: [عرض القبطي والعربي جنباً إلى جنب](https://shabiel.github.io/gthomas-arabic-translation/)، مع إبراز الكلمة المقابلة عند تمرير المؤشر فوق أي كلمة.
 
 ترجمة: سامح هابيل
 
