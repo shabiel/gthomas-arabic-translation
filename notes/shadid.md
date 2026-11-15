@@ -27,6 +27,8 @@ His likely source is Doresse's French translation (1959): Shadid uses Doresse's 
 - 11 (Shadid ١١–١٢): «لكن الذين هم أموات», «اليوم، تأكلون أشياء ميتة», «[لكن]» and the reordered «اثنين … وأنتم واحد» all follow Doresse's English (see Saying 11).
 - 33 (Shadid ٣٨): «بأذنك، وبالأذن الأخرى» and «أو يضعه»: Doresse "with thine ear, and the other ear" and "or in a hidden place" (see Saying 33).
 - 34 (Shadid ٣٩): «أعمى آخر»: Doresse "another blind man" (see Saying 34).
+- 37 (Shadid ٤٢): «[تصبحون] أبناء مَنْ هو حيّ», «ولا تعودون تخشون», «تخلعون», «عند أقدامكم» and «قال له»: all as in Doresse's English (see Saying 37).
+- 38 (Shadid ٤٣): «لكنكم لم تحصلوا على آخر» and «تبحثون فيها … تجدونني فيها»: Doresse "but you could not find anyone else" and "when … and when" (see Saying 38).
 - 35 (Shadid ٤٠): «ويعتدي عليه» and the bracketed «[فقط]»: Doresse "do him violence" and "<only>" (see Saying 35).
 - 36 (Shadid ٤١): «لا تهتمّوا … بما ستلبسون» follows Van Dyck's Matthew 6:25 rather than Doresse (see Saying 36).
 
@@ -352,6 +354,50 @@ Shadid's ٤١ (scan 181, printed page 180).
 ### Interpretive additions
 
 - **36:** an exclamation mark, «!», where the Coptic has none.
+
+## Saying 37
+
+Shadid's ٤٢ (scans 181–182, printed pages 180–181).
+
+### Textual reading
+
+- **37ج:** «إذاك [تصبحون] أبناء مَنْ هو حيّ» ("then [you will become] sons of the one who is living").
+  SCRIPTORIUM restores the damaged text as ⲧⲟⲧ[ⲉ] [ⲧⲉⲧⲛ̄]ⲁⲛⲁⲩ ⲉⲡϣⲏⲣⲉ ⲙ̄ⲡⲉⲧⲟⲛϩ, "then you will **see** the **son** of the living one".
+  Doresse has "Then [you will become] children of Him who is living", with the same bracketed restoration and plural.
+  So Shadid follows Doresse's (now superseded) reading of the lacuna, brackets included.
+
+### Evidence for Doresse
+
+- **37أ:** «قال له تلاميذه» ("his disciples said **to him**"); Doresse "His disciples say to him". The Coptic has no "to him".
+- **37ج:** «وتخلعون ملابسكم» ("take off your clothes"); Doresse "take off your clothes". The Coptic ϥⲓ is "take".
+- **37ج:** «عند أقدامكم» ("at your feet"); Doresse "at your feet". The Coptic ϩⲁⲡⲉⲥⲏⲧ ⲛ̄ⲛⲉⲧⲛ̄ⲟⲩⲉⲣⲏⲧⲉ is "under your feet".
+- **37ج:** «وتدوسونها!» with an exclamation mark, as in Doresse ("trample on them!").
+- **37د:** «ولا تعودون تخشون» ("you will no longer fear"); Doresse "you will have no more fear". The Coptic ⲧⲉⲧⲛⲁⲣ̄ϩⲟⲧⲉ ⲁⲛ is just "you will not fear".
+
+### Other readings
+
+- **37ج:** «على غرار الأطفال الصغار» ("like little children") has no demonstrative; the Coptic ⲛ̄ⲛⲓⲕⲟⲩⲉⲓ is "these little ones", and Doresse's English also lacks "these".
+- **37أ–ب:** «في أي يوم ستظهر لنا، وفي أي يوم سنراك؟» matches the Coptic and Doresse.
+
+## Saying 38
+
+Shadid's ٤٣ (scan 182, printed page 181).
+
+### Evidence for Doresse
+
+- **38ب:** «لكنكم لم تحصلوا على آخر تسمعونها منه» ("but you did not obtain another from whom to hear them"); Doresse "but you could not find anyone else from whom to hear them".
+  The Coptic has ⲁⲩⲱ ("and") and the present ⲙⲛ̄ⲧⲏⲧⲛ̄ ("you have no other"); both "but" and the past tense are Doresse's.
+- **38ج–د:** «ستأتي أيام تبحثون فيها عني، ولا تجدونني فيها» repeats «فيها» ("in which"), like Doresse's "when you will seek me, and when you will not find me".
+  The Coptic has no "when": ⲟⲩⲛ̄ϩⲛ̄ϩⲟⲟⲩ ⲛⲁϣⲱⲡⲉ ⲛ̄ⲧⲉⲧⲛ̄ϣⲓⲛⲉ ⲛ̄ⲥⲱⲉⲓ ⲧⲉⲧⲛⲁϩⲉ ⲁⲛ ⲉⲣⲟⲉⲓ.
+
+### Closer to the Coptic
+
+- **38أ:** «لقد رغبتم» keeps the perfect of ⲁⲧⲉⲧⲛ̄ⲣ̄ⲉⲡⲓⲑⲩⲙⲉⲓ ("you have desired"), and «التي أقولها لكم» the present of ⲉϯϫⲱ.
+  Shadid does not use Van Dyck's «اشتهى» here; this translation does («اشتهيتم»).
+
+### Departures from the Coptic
+
+- **38د:** «ولا تجدونني» is present; ⲧⲉⲧⲛⲁϩⲉ ⲁⲛ is future ("you will not find"), as in this translation's «ولن تجدوني».
 
 ## To do
 
