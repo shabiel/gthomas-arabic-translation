@@ -25,6 +25,8 @@ His likely source is Doresse's French translation (1959): Shadid uses Doresse's 
 - 8 «من دون تردّد», «ممتازة», «ثم قال»: Doresse "without hesitating", "excellent", "Then he says" (see Saying 8).
 - 9هـ «ممتازاً»: Doresse "excellent" again (see Saying 9).
 - 11 (Shadid ١١–١٢): «لكن الذين هم أموات», «اليوم، تأكلون أشياء ميتة», «[لكن]» and the reordered «اثنين … وأنتم واحد» all follow Doresse's English (see Saying 11).
+- 31 (Shadid ٣٦): «في مدينته» ("in his city") for ϯⲙⲉ ("village"): Doresse "in his (own) city" (see Saying 31).
+- 32 (Shadid ٣٧): «وقوية» and the closing «!»: Doresse "and which is strong" and "!" (see Saying 32).
 - 33 (Shadid ٣٨): «بأذنك، وبالأذن الأخرى» and «أو يضعه»: Doresse "with thine ear, and the other ear" and "or in a hidden place" (see Saying 33).
 - 34 (Shadid ٣٩): «أعمى آخر»: Doresse "another blind man" (see Saying 34).
 - 37 (Shadid ٤٢): «[تصبحون] أبناء مَنْ هو حيّ», «ولا تعودون تخشون», «تخلعون», «عند أقدامكم» and «قال له»: all as in Doresse's English (see Saying 37).
@@ -262,6 +264,40 @@ Like Doresse, he splits the saying in two, starting ١٢ at 11د.
 ### Departures from the Coptic
 
 - **11ب:** «لن يحيَوا» is future; ⲥⲉⲟⲛϩ ⲁⲛ is present ("are not alive"). Doresse also has "will not live".
+
+## Saying 31
+
+Shadid's ٣٦ (scan 181, printed page 180).
+
+### Evidence for Doresse
+
+- **31أ:** «في مدينته» ("in his city") for ϩⲙ̄ⲡⲉϥϯⲙⲉ ("in his village"); Doresse has "in his (own) city".
+  Van Dyck's parallels have «في وطنه» (Luke 4:24, Mark 6:4), so "city" comes from Doresse rather than the Arabic Bible.
+- **31ب:** «ولا يصنع طبيب…» opens with «و» ("and"), as in Doresse ("and a doctor…"); the Coptic has no conjunction. Weak on its own.
+
+### Other readings
+
+- **31أ:** «لا يُقبَل نبيٌّ» ("a prophet is not accepted") turns ⲙⲛ̄ⲡⲣⲟⲫⲏⲧⲏⲥ ϣⲏⲡ ("there is no prophet accepted") into a passive verb, as Doresse's English does.
+- **31ب:** «يصنع … شفاءً» ("performs healing") renders ⲣ̄ⲑⲉⲣⲁⲡⲉⲩⲉ (Greek θεραπεύειν) with a verb and noun; Doresse has "heal".
+  «في مَنْ يعرفونه» ("on those who know him") matches ⲛ̄ⲛⲉⲧⲥⲟⲟⲩⲛ ⲙ̄ⲙⲟϥ, as does this translation's «الذين يعرفونه».
+
+## Saying 32
+
+Shadid's ٣٧ (scan 181, printed page 180).
+
+### Evidence for Doresse
+
+- **32أ:** «وقوية» ("and strong") for ⲉⲥⲧⲁϫⲣⲏⲩ ("fortified, made firm"); Doresse has "and which is strong". Weak on its own, since ⲧⲁϫⲣⲟ can mean "make strong".
+- **32ب:** «ولا يمكن إخفاؤها!» ends with an exclamation mark, as does Doresse ("and it cannot be hidden!").
+
+### Harmonization with the Arabic Bible
+
+- **32أ–ب:** «لا يمكن أن تسقط … ولا يمكن إخفاؤها» echoes Van Dyck's Matthew 5:14 («لاَ يُمْكِنُ أَنْ تُخْفَى مَدِينَةٌ مَوْضُوعَةٌ عَلَى جَبَلٍ»).
+  This translation also follows Van Dyck in 32ب («ولن يمكن أن تُخفى»).
+
+### Departures from the Coptic
+
+- **32ب:** «ولا يمكن» is present; ⲥⲛⲁϣϩⲱⲡ is future ("will be able"), and ⲟⲩⲇⲉ is "nor". Doresse's English is also present ("it cannot be hidden").
 
 ## Saying 33
 
